@@ -1,0 +1,7042 @@
+@font-face {
+    font-family: GothamPro-BoldItalic;
+    font-style: italic;
+    font-weight: 700;
+    src: url(assets/9157e0529467fd730405.eot);
+    src: local("Gotham Pro Bold Italic"), local("GothamPro-BoldItalic"), url(assets/9157e0529467fd730405.eot?#iefix) format("embedded-opentype"), url(assets/f287aa7bf1612d65b2b2.woff) format("woff"), url(assets/045e34198ea694f1d3e4.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: GothamPro-Italic;
+    font-style: italic;
+    font-weight: 400;
+    src: url(assets/24e9ce4fcf28daac6d01.eot);
+    src: local("Gotham Pro Italic"), local("GothamPro-Italic"), url(assets/24e9ce4fcf28daac6d01.eot?#iefix) format("embedded-opentype"), url(assets/e2d27b15ca45598659c5.woff) format("woff"), url(assets/ed40ea7b2680692bd2b1.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: GothamPro-Medium;
+    font-style: normal;
+    font-weight: 500;
+    src: url(assets/38b9efdc31bc5e2f8f93.eot);
+    src: local("Gotham Pro Medium"), local("GothamPro-Medium"), url(assets/38b9efdc31bc5e2f8f93.eot?#iefix) format("embedded-opentype"), url(assets/48d4d0401d4bd02b35a6.woff) format("woff"), url(assets/dca4b95d345c2abd8661.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: GothamPro-BlackItalic;
+    font-style: italic;
+    font-weight: 900;
+    src: url(assets/614a0e211ff476548355.eot);
+    src: local("Gotham Pro Black Italic"), local("GothamPro-BlackItalic"), url(assets/614a0e211ff476548355.eot?#iefix) format("embedded-opentype"), url(assets/5c0503a11454c3bc9c1f.woff) format("woff"), url(assets/cd83f32f848f7f00de90.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: GothamPro-Bold;
+    font-style: normal;
+    font-weight: 700;
+    src: url(assets/2eca11eb8ebc1d254a45.eot);
+    src: local("Gotham Pro Bold"), local("GothamPro-Bold"), url(assets/2eca11eb8ebc1d254a45.eot?#iefix) format("embedded-opentype"), url(assets/2c6f2ca60db58ce41cc7.woff) format("woff"), url(assets/764ba13de4409a990823.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: GothamProNarrow-Bold;
+    font-style: normal;
+    font-weight: 700;
+    src: url(assets/41002f3c0618b6e59733.eot);
+    src: local("Gotham Pro Narrow Bold"), local("GothamProNarrow-Bold"), url(assets/41002f3c0618b6e59733.eot?#iefix) format("embedded-opentype"), url(assets/a9ffaaa754894d668a15.woff) format("woff"), url(assets/bba3976babbf62341630.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: GothamProNarrow-Medium;
+    font-style: normal;
+    font-weight: 500;
+    src: url(assets/965c6317d7c1ce7bacb6.eot);
+    src: local("Gotham Pro Narrow Medium"), local("GothamProNarrow-Medium"), url(assets/965c6317d7c1ce7bacb6.eot?#iefix) format("embedded-opentype"), url(assets/3175a7ff0d210a5a4807.woff) format("woff"), url(assets/7d40e1f552aa55a8bac7.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: GothamPro-LightItalic;
+    font-style: italic;
+    font-weight: 300;
+    src: url(assets/59020da5eeb10710eb09.eot);
+    src: local("Gotham Pro Light Italic"), local("GothamPro-LightItalic"), url(assets/59020da5eeb10710eb09.eot?#iefix) format("embedded-opentype"), url(assets/53caeaad78cb8273d54c.woff) format("woff"), url(assets/4f4522b8d83f0b754412.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: GothamPro-Light;
+    font-style: normal;
+    font-weight: 300;
+    src: url(assets/67dcc6c3498622fd4642.eot);
+    src: local("Gotham Pro Light"), local("GothamPro-Light"), url(assets/67dcc6c3498622fd4642.eot?#iefix) format("embedded-opentype"), url(assets/f44be092713bc803c628.woff) format("woff"), url(assets/dfbba8c980f43420d2d1.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: GothamPro-Black;
+    font-style: normal;
+    font-weight: 900;
+    src: url(assets/5d7af9ae9d0446cce7bb.eot);
+    src: local("Gotham Pro Black"), local("GothamPro-Black"), url(assets/5d7af9ae9d0446cce7bb.eot?#iefix) format("embedded-opentype"), url(assets/508486a56f9180ab19d9.woff) format("woff"), url(assets/8c2f478dfa880e2de0a1.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: GothamPro;
+    font-style: normal;
+    font-weight: 400;
+    src: url(assets/8c7017f6ea2ebb9bdd79.eot);
+    src: local("Gotham Pro"), local("GothamPro"), url(assets/8c7017f6ea2ebb9bdd79.eot?#iefix) format("embedded-opentype"), url(assets/774ec39b5d5d3a63e212.woff) format("woff"), url(assets/4f71921a0823129cd8ba.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Gotham Pro Medium Italic;
+    font-style: italic;
+    font-weight: 500;
+    src: url(assets/e7e640aeea71e9e66299.eot);
+    src: local("Gotham Pro Medium Italic"), local("GothamPro-MediumItalic"), url(assets/e7e640aeea71e9e66299.eot?#iefix) format("embedded-opentype"), url(assets/42e9946a9f8dfc1736b1.woff) format("woff"), url(assets/cc95bba9036630547633.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: PFDinDisplayProRegular;
+    font-style: normal;
+    font-weight: 400;
+    src: url(assets/ba1e612d14aefefd350f.eot);
+    src: local("PFDinDisplayPro-Regular"), url(assets/ba1e612d14aefefd350f.eot?#iefix) format("embedded-opentype"), url(assets/43ffef827f5744ebbd57.woff) format("woff"), url(assets/8c49d18c00206338562a.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: BebasNeue;
+    font-style: normal;
+    font-weight: 400;
+    src: url(assets/5c5dac2936883257eeeb.eot);
+    src: local("Bebas Neue Regular"), local("BebasNeueRegular"), url(assets/5c5dac2936883257eeeb.eot?#iefix) format("embedded-opentype"), url(assets/c07e076467a248c2f672.woff) format("woff"), url(assets/2a7f3a35cd73bc6c2ef2.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: BebasNeue-Bold;
+    font-style: normal;
+    font-weight: 700;
+    src: url(assets/b9df391d1a065b2134c5.eot);
+    src: local("Bebas Neue Bold"), local("BebasNeue-Bold"), url(assets/b9df391d1a065b2134c5.eot?#iefix) format("embedded-opentype"), url(assets/e0462489b6967dbc5942.woff) format("woff"), url(assets/84ef57b346144c49bdc2.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: BebasNeue-Light;
+    font-style: normal;
+    font-weight: 300;
+    src: url(assets/aad0eb94480b77b37f8f.eot);
+    src: local("Bebas Neue Light"), local("BebasNeue-Light"), url(assets/aad0eb94480b77b37f8f.eot?#iefix) format("embedded-opentype"), url(assets/fb1021edc3744b98b5b7.woff) format("woff"), url(assets/7ad14e69ab0ecc10a4c4.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: BebasNeue-Thin;
+    font-style: normal;
+    font-weight: 100;
+    src: url(assets/6462bce8f2e59a93bba1.eot);
+    src: local("Bebas Neue Thin"), local("BebasNeue-Thin"), url(assets/6462bce8f2e59a93bba1.eot?#iefix) format("embedded-opentype"), url(assets/83e86240c8a62475c312.woff) format("woff"), url(assets/f6a4986313e5295166ec.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: BebasNeue-Book;
+    font-style: normal;
+    font-weight: 400;
+    src: url(assets/5272a64ff8475b19c1c5.eot);
+    src: local("Bebas Neue Book"), local("BebasNeue-Book"), url(assets/5272a64ff8475b19c1c5.eot?#iefix) format("embedded-opentype"), url(assets/115b2edaaec21466987a.woff) format("woff"), url(assets/b53591e9849f5b8a0307.ttf) format("truetype")
+}
+
+body,
+html {
+    height: 100vh !important;
+    overflow: hidden;
+    -webkit-user-select: none;
+    width: 100vw !important
+}
+
+*,
+body,
+html,
+ol,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    color: #111;
+    font-size: 16px
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+b,
+big,
+blockquote,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+small,
+span,
+strike,
+strong,
+sub,
+sup,
+table,
+tbody,
+tfoot,
+th,
+thead,
+tr,
+tt,
+u,
+ul,
+var {
+    background: 0 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline
+}
+
+p {
+    margin-block-end: 0;
+    margin-block-start: 0
+}
+
+button,
+button:focus,
+input {
+    outline: none
+}
+
+.radial-menu-wrapper {
+    box-sizing: border-box;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    width: 100vw
+}
+
+.radial-menu-wrapper,
+.radial-menu__frame-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute
+}
+
+.radial-menu__frame-wrapper {
+    border-radius: 50%;
+    height: 33.85417vw;
+    overflow: hidden;
+    pointer-events: none;
+    transform: rotate(calc(45deg*var(--hovered-index)));
+    width: 33.85417vw;
+    z-index: 3
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__frame-wrapper {
+        width: 33.85417vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper {
+        width: 35.54688vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__frame-wrapper {
+        width: 26.06771vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__frame-wrapper {
+        width: 37.23958vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper {
+        width: 30.46875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__frame-wrapper {
+        width: 30.46875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__frame-wrapper {
+        width: 37.23958vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__frame-wrapper {
+        height: 33.85417vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper {
+        height: 35.54688vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__frame-wrapper {
+        height: 26.06771vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__frame-wrapper {
+        height: 37.23958vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper {
+        height: 30.46875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__frame-wrapper {
+        height: 30.46875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__frame-wrapper {
+        height: 37.23958vw
+    }
+}
+
+.radial-menu__frame-wrapper:after {
+    background: linear-gradient(180deg, transparent, #fff 91%);
+    content: "";
+    height: 7.8125vw;
+    left: 8.07292vw;
+    position: absolute;
+    top: 3.125vw;
+    transform: rotate(137deg);
+    width: .36458vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__frame-wrapper:after {
+        top: 3.125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper:after {
+        top: 3.28125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__frame-wrapper:after {
+        top: 2.40625vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__frame-wrapper:after {
+        top: 3.4375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper:after {
+        top: 2.8125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__frame-wrapper:after {
+        top: 2.8125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__frame-wrapper:after {
+        top: 3.4375vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__frame-wrapper:after {
+        left: 8.07292vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper:after {
+        left: 8.47656vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__frame-wrapper:after {
+        left: 6.21615vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__frame-wrapper:after {
+        left: 8.88021vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper:after {
+        left: 7.26563vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__frame-wrapper:after {
+        left: 7.26563vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__frame-wrapper:after {
+        left: 8.88021vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__frame-wrapper:after {
+        width: .36458vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper:after {
+        width: .38281vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__frame-wrapper:after {
+        width: .28073vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__frame-wrapper:after {
+        width: .40104vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper:after {
+        width: .32813vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__frame-wrapper:after {
+        width: .32813vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__frame-wrapper:after {
+        width: .40104vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__frame-wrapper:after {
+        height: 7.8125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper:after {
+        height: 8.20313vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__frame-wrapper:after {
+        height: 6.01563vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__frame-wrapper:after {
+        height: 8.59375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper:after {
+        height: 7.03125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__frame-wrapper:after {
+        height: 7.03125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__frame-wrapper:after {
+        height: 8.59375vw
+    }
+}
+
+.radial-menu__frame-wrapper:before {
+    background: linear-gradient(180deg, transparent, #fff 91%);
+    content: "";
+    height: 7.8125vw;
+    left: 2.91667vw;
+    position: absolute;
+    top: 14.0625vw;
+    transform: rotate(87deg);
+    width: .36458vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__frame-wrapper:before {
+        top: 14.0625vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper:before {
+        top: 14.76562vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__frame-wrapper:before {
+        top: 10.82813vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__frame-wrapper:before {
+        top: 15.46875vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper:before {
+        top: 12.65625vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__frame-wrapper:before {
+        top: 12.65625vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__frame-wrapper:before {
+        top: 15.46875vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__frame-wrapper:before {
+        left: 2.91667vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper:before {
+        left: 3.0625vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__frame-wrapper:before {
+        left: 2.24583vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__frame-wrapper:before {
+        left: 3.20833vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper:before {
+        left: 2.625vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__frame-wrapper:before {
+        left: 2.625vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__frame-wrapper:before {
+        left: 3.20833vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__frame-wrapper:before {
+        width: .36458vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper:before {
+        width: .38281vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__frame-wrapper:before {
+        width: .28073vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__frame-wrapper:before {
+        width: .40104vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper:before {
+        width: .32813vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__frame-wrapper:before {
+        width: .32813vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__frame-wrapper:before {
+        width: .40104vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__frame-wrapper:before {
+        height: 7.8125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper:before {
+        height: 8.20313vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__frame-wrapper:before {
+        height: 6.01563vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__frame-wrapper:before {
+        height: 8.59375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__frame-wrapper:before {
+        height: 7.03125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__frame-wrapper:before {
+        height: 7.03125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__frame-wrapper:before {
+        height: 8.59375vw
+    }
+}
+
+.radial-menu__frame {
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 48.3%;
+    left: 0;
+    overflow: hidden;
+    padding: .3125vw;
+    position: absolute;
+    top: 0;
+    transform: rotate(354.5deg) skew(45deg);
+    transform-origin: 100% 100%;
+    transition: background .15s linear;
+    width: 60%;
+    z-index: 2
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__frame {
+        padding: .3125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__frame {
+        padding: .32813vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__frame {
+        padding: .24063vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__frame {
+        padding: .34375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__frame {
+        padding: .28125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__frame {
+        padding: .28125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__frame {
+        padding: .34375vw
+    }
+}
+
+.radial-menu__frame-background {
+    background: radial-gradient(transparent 63.6%, #fff 64.5%), radial-gradient(transparent 64.3%, #111 74.1%);
+    box-sizing: border-box;
+    height: 30.20833vw;
+    position: absolute;
+    transform: skew(313.5deg) rotate(181deg);
+    transition: opacity .2s linear;
+    width: 26.04167vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__frame-background {
+        width: 26.04167vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__frame-background {
+        width: 27.34375vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__frame-background {
+        width: 20.05208vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__frame-background {
+        width: 28.64583vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__frame-background {
+        width: 23.4375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__frame-background {
+        width: 23.4375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__frame-background {
+        width: 28.64583vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__frame-background {
+        height: 30.20833vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__frame-background {
+        height: 31.71875vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__frame-background {
+        height: 23.26042vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__frame-background {
+        height: 33.22917vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__frame-background {
+        height: 27.1875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__frame-background {
+        height: 27.1875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__frame-background {
+        height: 33.22917vw
+    }
+}
+
+.radial-menu {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    height: 31.25vw;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    width: 31.25vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu {
+        width: 31.25vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu {
+        width: 32.8125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu {
+        width: 24.0625vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu {
+        width: 34.375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu {
+        width: 28.125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu {
+        width: 28.125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu {
+        width: 34.375vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu {
+        height: 31.25vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu {
+        height: 32.8125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu {
+        height: 24.0625vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu {
+        height: 34.375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu {
+        height: 28.125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu {
+        height: 28.125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu {
+        height: 34.375vw
+    }
+}
+
+.radial-menu__item-wrapper {
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 50%;
+    left: 0;
+    overflow: hidden;
+    padding: .3125vw;
+    position: absolute;
+    top: 0;
+    transform-origin: 100% 100%;
+    transition: background .15s linear;
+    width: 50%;
+    z-index: 1
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__item-wrapper {
+        padding: .3125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__item-wrapper {
+        padding: .32813vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__item-wrapper {
+        padding: .24063vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__item-wrapper {
+        padding: .34375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__item-wrapper {
+        padding: .28125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__item-wrapper {
+        padding: .28125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__item-wrapper {
+        padding: .34375vw
+    }
+}
+
+.radial-menu__item-wrapper:hover .radial-menu__item-icon {
+    opacity: 1
+}
+
+.radial-menu__item-wrapper:hover .radial-menu__item-icon-wrapper {
+    background-color: rgba(0, 0, 0, .15)
+}
+
+.radial-menu__item-wrapper:hover:nth-child(-n+8) .radial-menu__item-background {
+    background: radial-gradient(transparent 26.9%, #fff 79.5%), radial-gradient(at 85% 50%, transparent 38%, #fff 38.3%);
+    transform: skew(146deg) rotate(52deg);
+    z-index: 1
+}
+
+.radial-menu__item-wrapper:first-child {
+    transform: rotate(0deg) skew(45deg)
+}
+
+.radial-menu__item-wrapper:first-child .radial-menu__item-content {
+    transform: skew(-45deg) rotate(0deg)
+}
+
+.radial-menu__item-wrapper:first-child .radial-menu__item-background {
+    background: radial-gradient(transparent 78.6%, rgba(0, 0, 0, .2) 0), radial-gradient(transparent 38.1%, rgba(0, 0, 0, .2) 38.4%)
+}
+
+.radial-menu__item-wrapper:nth-child(2) {
+    transform: rotate(45deg) skew(45deg)
+}
+
+.radial-menu__item-wrapper:nth-child(2) .radial-menu__item-content {
+    transform: skew(-45deg) rotate(-45deg)
+}
+
+.radial-menu__item-wrapper:nth-child(2) .radial-menu__item-background {
+    background: radial-gradient(transparent 78.6%, rgba(0, 0, 0, .4) 0), radial-gradient(transparent 38.1%, rgba(0, 0, 0, .4) 38.4%)
+}
+
+.radial-menu__item-wrapper:nth-child(3) {
+    transform: rotate(90deg) skew(45deg)
+}
+
+.radial-menu__item-wrapper:nth-child(3) .radial-menu__item-content {
+    transform: skew(-45deg) rotate(-90deg)
+}
+
+.radial-menu__item-wrapper:nth-child(3) .radial-menu__item-background {
+    background: radial-gradient(transparent 78.6%, rgba(0, 0, 0, .2) 0), radial-gradient(transparent 38.1%, rgba(0, 0, 0, .2) 38.4%)
+}
+
+.radial-menu__item-wrapper:nth-child(4) {
+    transform: rotate(135deg) skew(45deg)
+}
+
+.radial-menu__item-wrapper:nth-child(4) .radial-menu__item-content {
+    transform: skew(-45deg) rotate(-135deg)
+}
+
+.radial-menu__item-wrapper:nth-child(4) .radial-menu__item-background {
+    background: radial-gradient(transparent 78.6%, rgba(0, 0, 0, .4) 0), radial-gradient(transparent 38.1%, rgba(0, 0, 0, .4) 38.4%)
+}
+
+.radial-menu__item-wrapper:nth-child(5) {
+    transform: rotate(180deg) skew(45deg)
+}
+
+.radial-menu__item-wrapper:nth-child(5) .radial-menu__item-content {
+    transform: skew(-45deg) rotate(-180deg)
+}
+
+.radial-menu__item-wrapper:nth-child(5) .radial-menu__item-background {
+    background: radial-gradient(transparent 78.6%, rgba(0, 0, 0, .2) 0), radial-gradient(transparent 38.1%, rgba(0, 0, 0, .2) 38.4%)
+}
+
+.radial-menu__item-wrapper:nth-child(6) {
+    transform: rotate(225deg) skew(45deg)
+}
+
+.radial-menu__item-wrapper:nth-child(6) .radial-menu__item-content {
+    transform: skew(-45deg) rotate(-225deg)
+}
+
+.radial-menu__item-wrapper:nth-child(6) .radial-menu__item-background {
+    background: radial-gradient(transparent 78.6%, rgba(0, 0, 0, .4) 0), radial-gradient(transparent 38.1%, rgba(0, 0, 0, .4) 38.4%)
+}
+
+.radial-menu__item-wrapper:nth-child(7) {
+    transform: rotate(270deg) skew(45deg)
+}
+
+.radial-menu__item-wrapper:nth-child(7) .radial-menu__item-content {
+    transform: skew(-45deg) rotate(-270deg)
+}
+
+.radial-menu__item-wrapper:nth-child(7) .radial-menu__item-background {
+    background: radial-gradient(transparent 78.6%, rgba(0, 0, 0, .2) 0), radial-gradient(transparent 38.1%, rgba(0, 0, 0, .2) 38.4%)
+}
+
+.radial-menu__item-wrapper:nth-child(8) {
+    transform: rotate(315deg) skew(45deg)
+}
+
+.radial-menu__item-wrapper:nth-child(8) .radial-menu__item-content {
+    transform: skew(-45deg) rotate(-315deg)
+}
+
+.radial-menu__item-wrapper:nth-child(8) .radial-menu__item-background {
+    background: radial-gradient(transparent 78.6%, rgba(0, 0, 0, .4) 0), radial-gradient(transparent 38.1%, rgba(0, 0, 0, .4) 38.4%)
+}
+
+.radial-menu__item-content {
+    align-items: center;
+    bottom: 0;
+    bottom: .52083vw;
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    right: 1.5625vw;
+    width: 75%;
+    width: 8.85417vw;
+    z-index: 2
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__item-content {
+        width: 8.85417vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__item-content {
+        width: 9.29688vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__item-content {
+        width: 6.81771vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__item-content {
+        width: 9.73958vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__item-content {
+        width: 7.96875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__item-content {
+        width: 7.96875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__item-content {
+        width: 9.73958vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__item-content {
+        bottom: .52083vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__item-content {
+        bottom: .54688vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__item-content {
+        bottom: .40104vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__item-content {
+        bottom: .57292vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__item-content {
+        bottom: .46875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__item-content {
+        bottom: .46875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__item-content {
+        bottom: .57292vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__item-content {
+        right: 1.5625vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__item-content {
+        right: 1.64063vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__item-content {
+        right: 1.20313vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__item-content {
+        right: 1.71875vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__item-content {
+        right: 1.40625vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__item-content {
+        right: 1.40625vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__item-content {
+        right: 1.71875vw
+    }
+}
+
+.radial-menu__item-background {
+    box-sizing: border-box;
+    height: 31.25vw;
+    position: absolute;
+    transform: skew(315.4deg) rotate(-105deg);
+    transition: opacity .2s linear;
+    width: 31.25vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__item-background {
+        width: 31.25vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__item-background {
+        width: 32.8125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__item-background {
+        width: 24.0625vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__item-background {
+        width: 34.375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__item-background {
+        width: 28.125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__item-background {
+        width: 28.125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__item-background {
+        width: 34.375vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__item-background {
+        height: 31.25vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__item-background {
+        height: 32.8125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__item-background {
+        height: 24.0625vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__item-background {
+        height: 34.375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__item-background {
+        height: 28.125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__item-background {
+        height: 28.125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__item-background {
+        height: 34.375vw
+    }
+}
+
+.radial-menu__selected-action-wrapper {
+    align-items: center;
+    background-color: transparent;
+    border-radius: 50%;
+    box-sizing: content-box;
+    display: flex;
+    height: 15.57292vw;
+    justify-content: center;
+    width: 15.57292vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__selected-action-wrapper {
+        width: 15.57292vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__selected-action-wrapper {
+        width: 16.35156vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__selected-action-wrapper {
+        width: 11.99115vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__selected-action-wrapper {
+        width: 17.13021vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__selected-action-wrapper {
+        width: 14.01563vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__selected-action-wrapper {
+        width: 14.01563vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__selected-action-wrapper {
+        width: 17.13021vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__selected-action-wrapper {
+        height: 15.57292vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__selected-action-wrapper {
+        height: 16.35156vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__selected-action-wrapper {
+        height: 11.99115vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__selected-action-wrapper {
+        height: 17.13021vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__selected-action-wrapper {
+        height: 14.01563vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__selected-action-wrapper {
+        height: 14.01563vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__selected-action-wrapper {
+        height: 17.13021vw
+    }
+}
+
+.radial-menu__selected-action {
+    align-items: center;
+    background: transparent;
+    border: .26042vw solid hsla(0, 0%, 100%, .2);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 12.60417vw;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    width: 12.60417vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__selected-action {
+        width: 12.60417vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__selected-action {
+        width: 13.23438vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__selected-action {
+        width: 9.70521vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__selected-action {
+        width: 13.86458vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__selected-action {
+        width: 11.34375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__selected-action {
+        width: 11.34375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__selected-action {
+        width: 13.86458vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__selected-action {
+        height: 12.60417vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__selected-action {
+        height: 13.23438vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__selected-action {
+        height: 9.70521vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__selected-action {
+        height: 13.86458vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__selected-action {
+        height: 11.34375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__selected-action {
+        height: 11.34375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__selected-action {
+        height: 13.86458vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__selected-action {
+        border-width: .26042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__selected-action {
+        border-width: .27344vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__selected-action {
+        border-width: .20052vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__selected-action {
+        border-width: .28646vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__selected-action {
+        border-width: .23438vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__selected-action {
+        border-width: .23438vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__selected-action {
+        border-width: .28646vw
+    }
+}
+
+.radial-menu__selected-action:before {
+    background: linear-gradient(180deg, #fff, #b8b8b8);
+    border-radius: 50%;
+    box-shadow: 0 11.7333px 23.4667px rgba(51, 51, 51, .45), inset 0 -5.21481px 5.21481px #a6a6a6, inset 0 5.21481px 5.21481px #fff;
+    content: "";
+    height: 4.58333vw;
+    position: absolute;
+    width: 4.58333vw;
+    z-index: 1
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__selected-action:before {
+        width: 4.58333vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__selected-action:before {
+        width: 4.8125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__selected-action:before {
+        width: 3.52917vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__selected-action:before {
+        width: 5.04167vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__selected-action:before {
+        width: 4.125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__selected-action:before {
+        width: 4.125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__selected-action:before {
+        width: 5.04167vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__selected-action:before {
+        height: 4.58333vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__selected-action:before {
+        height: 4.8125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__selected-action:before {
+        height: 3.52917vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__selected-action:before {
+        height: 5.04167vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__selected-action:before {
+        height: 4.125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__selected-action:before {
+        height: 4.125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__selected-action:before {
+        height: 5.04167vw
+    }
+}
+
+.radial-menu__selected-action-icon {
+    width: 3.4375vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__selected-action-icon {
+        width: 3.4375vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__selected-action-icon {
+        width: 3.60938vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__selected-action-icon {
+        width: 2.64688vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__selected-action-icon {
+        width: 3.78125vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__selected-action-icon {
+        width: 3.09375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__selected-action-icon {
+        width: 3.09375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__selected-action-icon {
+        width: 3.78125vw
+    }
+}
+
+.radial-menu__selected-action-title-wrapper {
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    min-height: 1.97917vw;
+    min-width: 9.16667vw;
+    padding-left: .26042vw;
+    padding-right: .26042vw;
+    position: relative;
+    width: fit-content;
+    z-index: 2
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__selected-action-title-wrapper {
+        padding-left: .26042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__selected-action-title-wrapper {
+        padding-left: .27344vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__selected-action-title-wrapper {
+        padding-left: .20052vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__selected-action-title-wrapper {
+        padding-left: .28646vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__selected-action-title-wrapper {
+        padding-left: .23438vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__selected-action-title-wrapper {
+        padding-left: .23438vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__selected-action-title-wrapper {
+        padding-left: .28646vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__selected-action-title-wrapper {
+        padding-right: .26042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__selected-action-title-wrapper {
+        padding-right: .27344vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__selected-action-title-wrapper {
+        padding-right: .20052vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__selected-action-title-wrapper {
+        padding-right: .28646vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__selected-action-title-wrapper {
+        padding-right: .23438vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__selected-action-title-wrapper {
+        padding-right: .23438vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__selected-action-title-wrapper {
+        padding-right: .28646vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__selected-action-title-wrapper {
+        min-width: 9.16667vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__selected-action-title-wrapper {
+        min-width: 9.625vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__selected-action-title-wrapper {
+        min-width: 7.05833vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__selected-action-title-wrapper {
+        min-width: 10.08333vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__selected-action-title-wrapper {
+        min-width: 8.25vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__selected-action-title-wrapper {
+        min-width: 8.25vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__selected-action-title-wrapper {
+        min-width: 10.08333vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__selected-action-title-wrapper {
+        min-height: 1.97917vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__selected-action-title-wrapper {
+        min-height: 2.07813vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__selected-action-title-wrapper {
+        min-height: 1.52396vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__selected-action-title-wrapper {
+        min-height: 2.17708vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__selected-action-title-wrapper {
+        min-height: 1.78125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__selected-action-title-wrapper {
+        min-height: 1.78125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__selected-action-title-wrapper {
+        min-height: 2.17708vw
+    }
+}
+
+.radial-menu__selected-action-title {
+    color: #fff;
+    font-family: BebasNeue-Bold;
+    font-size: 1.04167vw;
+    text-transform: uppercase
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__selected-action-title {
+        font-size: 1.04167vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__selected-action-title {
+        font-size: 1.09375vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__selected-action-title {
+        font-size: .80208vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__selected-action-title {
+        font-size: 1.14583vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__selected-action-title {
+        font-size: .9375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__selected-action-title {
+        font-size: .9375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__selected-action-title {
+        font-size: 1.14583vw
+    }
+}
+
+.radial-menu__item-icon-wrapper {
+    align-items: center;
+    background-color: rgba(0, 0, 0, .35);
+    border: 4px solid hsla(0, 0%, 100%, .15);
+    border-radius: 50%;
+    display: flex;
+    height: 4.6875vw;
+    justify-content: center;
+    width: 4.6875vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__item-icon-wrapper {
+        width: 4.6875vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__item-icon-wrapper {
+        width: 4.92188vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__item-icon-wrapper {
+        width: 3.60938vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__item-icon-wrapper {
+        width: 5.15625vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__item-icon-wrapper {
+        width: 4.21875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__item-icon-wrapper {
+        width: 4.21875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__item-icon-wrapper {
+        width: 5.15625vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__item-icon-wrapper {
+        height: 4.6875vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__item-icon-wrapper {
+        height: 4.92188vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__item-icon-wrapper {
+        height: 3.60938vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__item-icon-wrapper {
+        height: 5.15625vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__item-icon-wrapper {
+        height: 4.21875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__item-icon-wrapper {
+        height: 4.21875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__item-icon-wrapper {
+        height: 5.15625vw
+    }
+}
+
+.radial-menu__item-icon {
+    opacity: .25;
+    transition: opacity .2s linear;
+    width: 2.8125vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .radial-menu__item-icon {
+        width: 2.8125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .radial-menu__item-icon {
+        width: 2.95313vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .radial-menu__item-icon {
+        width: 2.16563vw
+    }
+}
+
+@media(min-width:3440px) {
+    .radial-menu__item-icon {
+        width: 3.09375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .radial-menu__item-icon {
+        width: 2.53125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .radial-menu__item-icon {
+        width: 2.53125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .radial-menu__item-icon {
+        width: 3.09375vw
+    }
+}
+
+.gas-station {
+    background-color: rgba(22, 26, 43, .95);
+    bottom: 0;
+    padding-left: 1.97917vw;
+    padding-right: 2.60417vw;
+    padding-top: 1.40625vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 34.6875vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station {
+        width: 34.6875vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station {
+        width: 36.42188vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station {
+        width: 26.70938vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station {
+        width: 38.15625vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station {
+        width: 31.21875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station {
+        width: 31.21875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station {
+        width: 38.15625vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station {
+        padding-top: 1.40625vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station {
+        padding-top: 1.47656vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station {
+        padding-top: 1.08281vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station {
+        padding-top: 1.54688vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station {
+        padding-top: 1.26563vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station {
+        padding-top: 1.26563vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station {
+        padding-top: 1.54688vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station {
+        padding-left: 1.97917vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station {
+        padding-left: 2.07813vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station {
+        padding-left: 1.52396vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station {
+        padding-left: 2.17708vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station {
+        padding-left: 1.78125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station {
+        padding-left: 1.78125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station {
+        padding-left: 2.17708vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station {
+        padding-right: 2.60417vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station {
+        padding-right: 2.73438vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station {
+        padding-right: 2.00521vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station {
+        padding-right: 2.86458vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station {
+        padding-right: 2.34375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station {
+        padding-right: 2.34375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station {
+        padding-right: 2.86458vw
+    }
+}
+
+.gas-station__header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+}
+
+.gas-station__brand {
+    color: #fff;
+    font-family: PFDinDisplayProRegular;
+    font-size: 2.08333vw;
+    font-weight: 700;
+    line-height: 2.5vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__brand {
+        font-size: 2.08333vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__brand {
+        font-size: 2.1875vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__brand {
+        font-size: 1.60417vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__brand {
+        font-size: 2.29167vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__brand {
+        font-size: 1.875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__brand {
+        font-size: 1.875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__brand {
+        font-size: 2.29167vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__brand {
+        line-height: 2.5vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__brand {
+        line-height: 2.625vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__brand {
+        line-height: 1.925vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__brand {
+        line-height: 2.75vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__brand {
+        line-height: 2.25vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__brand {
+        line-height: 2.25vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__brand {
+        line-height: 2.75vw
+    }
+}
+
+.gas-station__brand--red {
+    color: #ff2323
+}
+
+.gas-station__caption {
+    color: hsla(0, 0%, 100%, .45);
+    font-family: PFDinDisplayProRegular;
+    font-size: .83333vw;
+    line-height: .98958vw;
+    padding-left: .88542vw;
+    padding-top: .26042vw;
+    width: 100%
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__caption {
+        font-size: .83333vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__caption {
+        font-size: .875vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__caption {
+        font-size: .64167vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__caption {
+        font-size: .91667vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__caption {
+        font-size: .75vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__caption {
+        font-size: .75vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__caption {
+        font-size: .91667vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__caption {
+        line-height: .98958vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__caption {
+        line-height: 1.03906vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__caption {
+        line-height: .76198vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__caption {
+        line-height: 1.08854vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__caption {
+        line-height: .89062vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__caption {
+        line-height: .89062vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__caption {
+        line-height: 1.08854vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__caption {
+        padding-left: .88542vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__caption {
+        padding-left: .92969vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__caption {
+        padding-left: .68177vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__caption {
+        padding-left: .97396vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__caption {
+        padding-left: .79688vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__caption {
+        padding-left: .79688vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__caption {
+        padding-left: .97396vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__caption {
+        padding-top: .26042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__caption {
+        padding-top: .27344vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__caption {
+        padding-top: .20052vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__caption {
+        padding-top: .28646vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__caption {
+        padding-top: .23438vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__caption {
+        padding-top: .23438vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__caption {
+        padding-top: .28646vw
+    }
+}
+
+.gas-station__type-caption {
+    color: #fff;
+    font-family: PFDinDisplayProRegular;
+    font-size: 1.25vw;
+    line-height: 1.51042vw;
+    margin-top: 2.60417vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__type-caption {
+        font-size: 1.25vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__type-caption {
+        font-size: 1.3125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__type-caption {
+        font-size: .9625vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__type-caption {
+        font-size: 1.375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__type-caption {
+        font-size: 1.125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__type-caption {
+        font-size: 1.125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__type-caption {
+        font-size: 1.375vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__type-caption {
+        line-height: 1.51042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__type-caption {
+        line-height: 1.58594vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__type-caption {
+        line-height: 1.16302vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__type-caption {
+        line-height: 1.66146vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__type-caption {
+        line-height: 1.35938vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__type-caption {
+        line-height: 1.35938vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__type-caption {
+        line-height: 1.66146vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__type-caption {
+        margin-top: 2.60417vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__type-caption {
+        margin-top: 2.73438vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__type-caption {
+        margin-top: 2.00521vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__type-caption {
+        margin-top: 2.86458vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__type-caption {
+        margin-top: 2.34375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__type-caption {
+        margin-top: 2.34375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__type-caption {
+        margin-top: 2.86458vw
+    }
+}
+
+.gas-station__fuel-types {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.60417vw;
+    width: 100%
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__fuel-types {
+        margin-top: 2.60417vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__fuel-types {
+        margin-top: 2.73438vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__fuel-types {
+        margin-top: 2.00521vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__fuel-types {
+        margin-top: 2.86458vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__fuel-types {
+        margin-top: 2.34375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__fuel-types {
+        margin-top: 2.34375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__fuel-types {
+        margin-top: 2.86458vw
+    }
+}
+
+.gas-station__fuel-type {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    opacity: .4;
+    transition: .2s ease-out;
+    transition-property: opacity;
+    width: 6.51042vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__fuel-type {
+        width: 6.51042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__fuel-type {
+        width: 6.83594vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__fuel-type {
+        width: 5.01302vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__fuel-type {
+        width: 7.16146vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__fuel-type {
+        width: 5.85938vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__fuel-type {
+        width: 5.85938vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__fuel-type {
+        width: 7.16146vw
+    }
+}
+
+.gas-station__fuel-type--active,
+.gas-station__fuel-type:hover {
+    opacity: 1
+}
+
+.gas-station__fuel-type--disabled {
+    opacity: .4;
+    pointer-events: none
+}
+
+.gas-station__fuel-button {
+    align-items: center;
+    background-color: transparent;
+    border: .05208vw solid #fff;
+    border-radius: .26042vw;
+    display: flex;
+    height: 2.60417vw;
+    justify-content: space-evenly;
+    width: 100%
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__fuel-button {
+        border-radius: .26042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__fuel-button {
+        border-radius: .27344vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__fuel-button {
+        border-radius: .20052vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__fuel-button {
+        border-radius: .28646vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__fuel-button {
+        border-radius: .23438vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__fuel-button {
+        border-radius: .23438vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__fuel-button {
+        border-radius: .28646vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__fuel-button {
+        border-width: .05208vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__fuel-button {
+        border-width: .05469vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__fuel-button {
+        border-width: .0401vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__fuel-button {
+        border-width: .05729vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__fuel-button {
+        border-width: .04688vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__fuel-button {
+        border-width: .04688vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__fuel-button {
+        border-width: .05729vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__fuel-button {
+        height: 2.60417vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__fuel-button {
+        height: 2.73438vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__fuel-button {
+        height: 2.00521vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__fuel-button {
+        height: 2.86458vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__fuel-button {
+        height: 2.34375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__fuel-button {
+        height: 2.34375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__fuel-button {
+        height: 2.86458vw
+    }
+}
+
+.gas-station__fuel-button--yellow {
+    background-color: rgba(255, 203, 90, .1);
+    border-color: #ffcb5a;
+    color: #ffcb5a
+}
+
+.gas-station__fuel-button--green {
+    background-color: rgba(143, 255, 90, .1);
+    border-color: #68ff65;
+    color: #68ff65
+}
+
+.gas-station__fuel-button--blue {
+    background-color: rgba(90, 255, 225, .1);
+    border-color: #5affe1;
+    color: #5affe1
+}
+
+.gas-station__fuel-button--red {
+    background-color: rgba(255, 120, 90, .1);
+    border-color: #ff785a;
+    color: #ff785a
+}
+
+.gas-station__fuel-drop {
+    font-size: 1.04167vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__fuel-drop {
+        font-size: 1.04167vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__fuel-drop {
+        font-size: 1.09375vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__fuel-drop {
+        font-size: .80208vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__fuel-drop {
+        font-size: 1.14583vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__fuel-drop {
+        font-size: .9375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__fuel-drop {
+        font-size: .9375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__fuel-drop {
+        font-size: 1.14583vw
+    }
+}
+
+.gas-station__fuel-octane {
+    font-family: PFDinDisplayProRegular;
+    font-size: .83333vw;
+    line-height: .98958vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__fuel-octane {
+        font-size: .83333vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__fuel-octane {
+        font-size: .875vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__fuel-octane {
+        font-size: .64167vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__fuel-octane {
+        font-size: .91667vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__fuel-octane {
+        font-size: .75vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__fuel-octane {
+        font-size: .75vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__fuel-octane {
+        font-size: .91667vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__fuel-octane {
+        line-height: .98958vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__fuel-octane {
+        line-height: 1.03906vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__fuel-octane {
+        line-height: .76198vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__fuel-octane {
+        line-height: 1.08854vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__fuel-octane {
+        line-height: .89062vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__fuel-octane {
+        line-height: .89062vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__fuel-octane {
+        line-height: 1.08854vw
+    }
+}
+
+.gas-station__fuel-price {
+    align-items: start;
+    display: flex;
+    margin-top: .52083vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__fuel-price {
+        margin-top: .52083vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__fuel-price {
+        margin-top: .54688vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__fuel-price {
+        margin-top: .40104vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__fuel-price {
+        margin-top: .57292vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__fuel-price {
+        margin-top: .46875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__fuel-price {
+        margin-top: .46875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__fuel-price {
+        margin-top: .57292vw
+    }
+}
+
+.gas-station__fuel-price-value {
+    color: #fff;
+    font-family: PFDinDisplayProRegular;
+    font-size: .83333vw;
+    line-height: .98958vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__fuel-price-value {
+        font-size: .83333vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__fuel-price-value {
+        font-size: .875vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__fuel-price-value {
+        font-size: .64167vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__fuel-price-value {
+        font-size: .91667vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__fuel-price-value {
+        font-size: .75vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__fuel-price-value {
+        font-size: .75vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__fuel-price-value {
+        font-size: .91667vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__fuel-price-value {
+        line-height: .98958vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__fuel-price-value {
+        line-height: 1.03906vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__fuel-price-value {
+        line-height: .76198vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__fuel-price-value {
+        line-height: 1.08854vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__fuel-price-value {
+        line-height: .89062vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__fuel-price-value {
+        line-height: .89062vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__fuel-price-value {
+        line-height: 1.08854vw
+    }
+}
+
+.gas-station__units {
+    color: #fff;
+    font-family: PFDinDisplayProRegular;
+    font-size: .52083vw;
+    line-height: .72917vw;
+    margin-left: .15625vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__units {
+        font-size: .52083vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__units {
+        font-size: .54688vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__units {
+        font-size: .40104vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__units {
+        font-size: .57292vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__units {
+        font-size: .46875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__units {
+        font-size: .46875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__units {
+        font-size: .57292vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__units {
+        line-height: .72917vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__units {
+        line-height: .76563vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__units {
+        line-height: .56146vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__units {
+        line-height: .80208vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__units {
+        line-height: .65625vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__units {
+        line-height: .65625vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__units {
+        line-height: .80208vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__units {
+        margin-left: .15625vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__units {
+        margin-left: .16406vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__units {
+        margin-left: .12031vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__units {
+        margin-left: .17188vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__units {
+        margin-left: .14063vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__units {
+        margin-left: .14063vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__units {
+        margin-left: .17188vw
+    }
+}
+
+.gas-station__fuel-volume {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6.51042vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__fuel-volume {
+        margin-top: 6.51042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__fuel-volume {
+        margin-top: 6.83594vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__fuel-volume {
+        margin-top: 5.01302vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__fuel-volume {
+        margin-top: 7.16146vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__fuel-volume {
+        margin-top: 5.85938vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__fuel-volume {
+        margin-top: 5.85938vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__fuel-volume {
+        margin-top: 7.16146vw
+    }
+}
+
+.gas-station__select-volume {
+    color: #fff;
+    font-family: PFDinDisplayProRegular;
+    font-size: 1.25vw;
+    line-height: 1.51042vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__select-volume {
+        font-size: 1.25vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__select-volume {
+        font-size: 1.3125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__select-volume {
+        font-size: .9625vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__select-volume {
+        font-size: 1.375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__select-volume {
+        font-size: 1.125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__select-volume {
+        font-size: 1.125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__select-volume {
+        font-size: 1.375vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__select-volume {
+        line-height: 1.51042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__select-volume {
+        line-height: 1.58594vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__select-volume {
+        line-height: 1.16302vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__select-volume {
+        line-height: 1.66146vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__select-volume {
+        line-height: 1.35938vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__select-volume {
+        line-height: 1.35938vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__select-volume {
+        line-height: 1.66146vw
+    }
+}
+
+.gas-station__current-volume {
+    align-items: center;
+    background-color: hsla(0, 0%, 100%, .1);
+    border-radius: .26042vw;
+    display: flex;
+    height: 2.60417vw;
+    justify-content: center;
+    position: relative;
+    width: 7.03125vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__current-volume {
+        border-radius: .26042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__current-volume {
+        border-radius: .27344vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__current-volume {
+        border-radius: .20052vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__current-volume {
+        border-radius: .28646vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__current-volume {
+        border-radius: .23438vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__current-volume {
+        border-radius: .23438vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__current-volume {
+        border-radius: .28646vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__current-volume {
+        width: 7.03125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__current-volume {
+        width: 7.38281vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__current-volume {
+        width: 5.41406vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__current-volume {
+        width: 7.73438vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__current-volume {
+        width: 6.32813vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__current-volume {
+        width: 6.32813vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__current-volume {
+        width: 7.73438vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__current-volume {
+        height: 2.60417vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__current-volume {
+        height: 2.73438vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__current-volume {
+        height: 2.00521vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__current-volume {
+        height: 2.86458vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__current-volume {
+        height: 2.34375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__current-volume {
+        height: 2.34375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__current-volume {
+        height: 2.86458vw
+    }
+}
+
+.gas-station__fill-all-button {
+    bottom: -.52083vw;
+    color: hsla(0, 0%, 100%, .45);
+    cursor: pointer;
+    font-family: PFDinDisplayProRegular;
+    font-size: 1.04167vw;
+    position: absolute;
+    transform: translateY(100%);
+    transition: color .2s linear
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__fill-all-button {
+        font-size: 1.04167vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__fill-all-button {
+        font-size: 1.09375vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__fill-all-button {
+        font-size: .80208vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__fill-all-button {
+        font-size: 1.14583vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__fill-all-button {
+        font-size: .9375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__fill-all-button {
+        font-size: .9375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__fill-all-button {
+        font-size: 1.14583vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__fill-all-button {
+        bottom: -.52083vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__fill-all-button {
+        bottom: -.54687vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__fill-all-button {
+        bottom: -.40104vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__fill-all-button {
+        bottom: -.57292vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__fill-all-button {
+        bottom: -.46875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__fill-all-button {
+        bottom: -.46875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__fill-all-button {
+        bottom: -.57292vw
+    }
+}
+
+.gas-station__fill-all-button:hover {
+    color: #fff
+}
+
+.gas-station__volume-caption {
+    color: hsla(0, 0%, 100%, .45);
+    font-family: PFDinDisplayProRegular;
+    font-size: 1.04167vw;
+    line-height: 1.25vw;
+    margin-right: .26042vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__volume-caption {
+        font-size: 1.04167vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__volume-caption {
+        font-size: 1.09375vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__volume-caption {
+        font-size: .80208vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__volume-caption {
+        font-size: 1.14583vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__volume-caption {
+        font-size: .9375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__volume-caption {
+        font-size: .9375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__volume-caption {
+        font-size: 1.14583vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__volume-caption {
+        line-height: 1.25vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__volume-caption {
+        line-height: 1.3125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__volume-caption {
+        line-height: .9625vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__volume-caption {
+        line-height: 1.375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__volume-caption {
+        line-height: 1.125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__volume-caption {
+        line-height: 1.125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__volume-caption {
+        line-height: 1.375vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__volume-caption {
+        margin-right: .26042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__volume-caption {
+        margin-right: .27344vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__volume-caption {
+        margin-right: .20052vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__volume-caption {
+        margin-right: .28646vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__volume-caption {
+        margin-right: .23438vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__volume-caption {
+        margin-right: .23438vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__volume-caption {
+        margin-right: .28646vw
+    }
+}
+
+.gas-station__volume-value {
+    color: #fff;
+    font-family: PFDinDisplayProRegular;
+    font-size: 1.25vw;
+    line-height: 1.51042vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__volume-value {
+        font-size: 1.25vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__volume-value {
+        font-size: 1.3125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__volume-value {
+        font-size: .9625vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__volume-value {
+        font-size: 1.375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__volume-value {
+        font-size: 1.125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__volume-value {
+        font-size: 1.125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__volume-value {
+        font-size: 1.375vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__volume-value {
+        line-height: 1.51042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__volume-value {
+        line-height: 1.58594vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__volume-value {
+        line-height: 1.16302vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__volume-value {
+        line-height: 1.66146vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__volume-value {
+        line-height: 1.35938vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__volume-value {
+        line-height: 1.35938vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__volume-value {
+        line-height: 1.66146vw
+    }
+}
+
+.gas-station__selected-volume {
+    color: #fff;
+    font-family: PFDinDisplayProRegular;
+    font-size: 1.04167vw;
+    line-height: 1.25vw;
+    margin-top: 1.30208vw;
+    text-align: center
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__selected-volume {
+        font-size: 1.04167vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__selected-volume {
+        font-size: 1.09375vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__selected-volume {
+        font-size: .80208vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__selected-volume {
+        font-size: 1.14583vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__selected-volume {
+        font-size: .9375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__selected-volume {
+        font-size: .9375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__selected-volume {
+        font-size: 1.14583vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__selected-volume {
+        line-height: 1.25vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__selected-volume {
+        line-height: 1.3125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__selected-volume {
+        line-height: .9625vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__selected-volume {
+        line-height: 1.375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__selected-volume {
+        line-height: 1.125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__selected-volume {
+        line-height: 1.125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__selected-volume {
+        line-height: 1.375vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__selected-volume {
+        margin-top: 1.30208vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__selected-volume {
+        margin-top: 1.36719vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__selected-volume {
+        margin-top: 1.0026vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__selected-volume {
+        margin-top: 1.43229vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__selected-volume {
+        margin-top: 1.17188vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__selected-volume {
+        margin-top: 1.17188vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__selected-volume {
+        margin-top: 1.43229vw
+    }
+}
+
+.gas-station__input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.04167vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__input-wrapper {
+        margin-top: 1.04167vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__input-wrapper {
+        margin-top: 1.09375vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__input-wrapper {
+        margin-top: .80208vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__input-wrapper {
+        margin-top: 1.14583vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__input-wrapper {
+        margin-top: .9375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__input-wrapper {
+        margin-top: .9375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__input-wrapper {
+        margin-top: 1.14583vw
+    }
+}
+
+.gas-station__input-min-caption {
+    color: hsla(0, 0%, 100%, .45);
+    font-family: PFDinDisplayProRegular;
+    font-size: 1.04167vw;
+    line-height: 1.25vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__input-min-caption {
+        font-size: 1.04167vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__input-min-caption {
+        font-size: 1.09375vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__input-min-caption {
+        font-size: .80208vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__input-min-caption {
+        font-size: 1.14583vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__input-min-caption {
+        font-size: .9375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__input-min-caption {
+        font-size: .9375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__input-min-caption {
+        font-size: 1.14583vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__input-min-caption {
+        line-height: 1.25vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__input-min-caption {
+        line-height: 1.3125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__input-min-caption {
+        line-height: .9625vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__input-min-caption {
+        line-height: 1.375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__input-min-caption {
+        line-height: 1.125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__input-min-caption {
+        line-height: 1.125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__input-min-caption {
+        line-height: 1.375vw
+    }
+}
+
+.gas-station__input-range {
+    align-items: center;
+    display: flex;
+    width: 23.4375vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__input-range {
+        width: 23.4375vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__input-range {
+        width: 24.60938vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__input-range {
+        width: 18.04688vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__input-range {
+        width: 25.78125vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__input-range {
+        width: 21.09375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__input-range {
+        width: 21.09375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__input-range {
+        width: 25.78125vw
+    }
+}
+
+.gas-station__input-holder {
+    background-color: hsla(0, 0%, 100%, .45);
+    border-bottom-left-radius: .26042vw;
+    border-top-left-radius: .26042vw;
+    height: .41667vw;
+    max-width: 95%;
+    width: var(--holder-offset)
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__input-holder {
+        height: .41667vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__input-holder {
+        height: .4375vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__input-holder {
+        height: .32083vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__input-holder {
+        height: .45833vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__input-holder {
+        height: .375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__input-holder {
+        height: .375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__input-holder {
+        height: .45833vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__input-holder {
+        border-top-left-radius: .26042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__input-holder {
+        border-top-left-radius: .27344vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__input-holder {
+        border-top-left-radius: .20052vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__input-holder {
+        border-top-left-radius: .28646vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__input-holder {
+        border-top-left-radius: .23438vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__input-holder {
+        border-top-left-radius: .23438vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__input-holder {
+        border-top-left-radius: .28646vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__input-holder {
+        border-bottom-left-radius: .26042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__input-holder {
+        border-bottom-left-radius: .27344vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__input-holder {
+        border-bottom-left-radius: .20052vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__input-holder {
+        border-bottom-left-radius: .28646vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__input-holder {
+        border-bottom-left-radius: .23438vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__input-holder {
+        border-bottom-left-radius: .23438vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__input-holder {
+        border-bottom-left-radius: .28646vw
+    }
+}
+
+.gas-station__input-separator {
+    background-color: hsla(0, 0%, 100%, .45);
+    border-radius: .26042vw;
+    height: 1.04167vw;
+    width: .26042vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__input-separator {
+        width: .26042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__input-separator {
+        width: .27344vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__input-separator {
+        width: .20052vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__input-separator {
+        width: .28646vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__input-separator {
+        width: .23438vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__input-separator {
+        width: .23438vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__input-separator {
+        width: .28646vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__input-separator {
+        height: 1.04167vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__input-separator {
+        height: 1.09375vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__input-separator {
+        height: .80208vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__input-separator {
+        height: 1.14583vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__input-separator {
+        height: .9375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__input-separator {
+        height: .9375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__input-separator {
+        height: 1.14583vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__input-separator {
+        border-radius: .26042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__input-separator {
+        border-radius: .27344vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__input-separator {
+        border-radius: .20052vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__input-separator {
+        border-radius: .28646vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__input-separator {
+        border-radius: .23438vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__input-separator {
+        border-radius: .23438vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__input-separator {
+        border-radius: .28646vw
+    }
+}
+
+.gas-station__input-white-space {
+    background-color: #fff;
+    height: .41667vw;
+    width: .52083vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__input-white-space {
+        width: .52083vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__input-white-space {
+        width: .54688vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__input-white-space {
+        width: .40104vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__input-white-space {
+        width: .57292vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__input-white-space {
+        width: .46875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__input-white-space {
+        width: .46875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__input-white-space {
+        width: .57292vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__input-white-space {
+        height: .41667vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__input-white-space {
+        height: .4375vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__input-white-space {
+        height: .32083vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__input-white-space {
+        height: .45833vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__input-white-space {
+        height: .375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__input-white-space {
+        height: .375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__input-white-space {
+        height: .45833vw
+    }
+}
+
+.gas-station #gas-station-input {
+    margin: 0
+}
+
+.gas-station #gas-station-input .rangeNub {
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 1.30208vw;
+    left: auto;
+    top: auto;
+    width: 1.30208vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station #gas-station-input .rangeNub {
+        width: 1.30208vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station #gas-station-input .rangeNub {
+        width: 1.36719vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station #gas-station-input .rangeNub {
+        width: 1.0026vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station #gas-station-input .rangeNub {
+        width: 1.43229vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station #gas-station-input .rangeNub {
+        width: 1.17188vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station #gas-station-input .rangeNub {
+        width: 1.17188vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station #gas-station-input .rangeNub {
+        width: 1.43229vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station #gas-station-input .rangeNub {
+        height: 1.30208vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station #gas-station-input .rangeNub {
+        height: 1.36719vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station #gas-station-input .rangeNub {
+        height: 1.0026vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station #gas-station-input .rangeNub {
+        height: 1.43229vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station #gas-station-input .rangeNub {
+        height: 1.17188vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station #gas-station-input .rangeNub {
+        height: 1.17188vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station #gas-station-input .rangeNub {
+        height: 1.43229vw
+    }
+}
+
+.gas-station #gas-station-input .rangeBar {
+    border: none;
+    border-radius: 0;
+    height: .41667vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station #gas-station-input .rangeBar {
+        height: .41667vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station #gas-station-input .rangeBar {
+        height: .4375vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station #gas-station-input .rangeBar {
+        height: .32083vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station #gas-station-input .rangeBar {
+        height: .45833vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station #gas-station-input .rangeBar {
+        height: .375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station #gas-station-input .rangeBar {
+        height: .375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station #gas-station-input .rangeBar {
+        height: .45833vw
+    }
+}
+
+.gas-station #gas-station-input.rangeSlider {
+    height: .41667vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station #gas-station-input.rangeSlider {
+        height: .41667vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station #gas-station-input.rangeSlider {
+        height: .4375vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station #gas-station-input.rangeSlider {
+        height: .32083vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station #gas-station-input.rangeSlider {
+        height: .45833vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station #gas-station-input.rangeSlider {
+        height: .375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station #gas-station-input.rangeSlider {
+        height: .375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station #gas-station-input.rangeSlider {
+        height: .45833vw
+    }
+}
+
+.gas-station #gas-station-input .rangeHandle {
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.gas-station__input-max-caption {
+    color: hsla(0, 0%, 100%, .45);
+    font-family: PFDinDisplayProRegular;
+    font-size: 1.04167vw;
+    line-height: 1.25vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__input-max-caption {
+        font-size: 1.04167vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__input-max-caption {
+        font-size: 1.09375vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__input-max-caption {
+        font-size: .80208vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__input-max-caption {
+        font-size: 1.14583vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__input-max-caption {
+        font-size: .9375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__input-max-caption {
+        font-size: .9375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__input-max-caption {
+        font-size: 1.14583vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__input-max-caption {
+        line-height: 1.25vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__input-max-caption {
+        line-height: 1.3125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__input-max-caption {
+        line-height: .9625vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__input-max-caption {
+        line-height: 1.375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__input-max-caption {
+        line-height: 1.125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__input-max-caption {
+        line-height: 1.125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__input-max-caption {
+        line-height: 1.375vw
+    }
+}
+
+.gas-station__total {
+    margin-top: 2.65625vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__total {
+        margin-top: 2.65625vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__total {
+        margin-top: 2.78906vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__total {
+        margin-top: 2.04531vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__total {
+        margin-top: 2.92188vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__total {
+        margin-top: 2.39063vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__total {
+        margin-top: 2.39063vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__total {
+        margin-top: 2.92188vw
+    }
+}
+
+.gas-station__total-caption {
+    color: hsla(0, 0%, 100%, .45);
+    font-family: PFDinDisplayProRegular;
+    font-size: .83333vw;
+    line-height: .98958vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__total-caption {
+        font-size: .83333vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__total-caption {
+        font-size: .875vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__total-caption {
+        font-size: .64167vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__total-caption {
+        font-size: .91667vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__total-caption {
+        font-size: .75vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__total-caption {
+        font-size: .75vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__total-caption {
+        font-size: .91667vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__total-caption {
+        line-height: .98958vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__total-caption {
+        line-height: 1.03906vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__total-caption {
+        line-height: .76198vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__total-caption {
+        line-height: 1.08854vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__total-caption {
+        line-height: .89062vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__total-caption {
+        line-height: .89062vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__total-caption {
+        line-height: 1.08854vw
+    }
+}
+
+.gas-station__total-row {
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+}
+
+.gas-station__dollar-sign {
+    align-items: center;
+    background-color: #39d236;
+    border-radius: 50%;
+    color: #202731;
+    display: inline-flex;
+    font-family: PFDinDisplayProRegular;
+    font-size: 1.25vw;
+    height: 1.82292vw;
+    justify-content: center;
+    line-height: 1.51042vw;
+    width: 1.82292vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__dollar-sign {
+        font-size: 1.25vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__dollar-sign {
+        font-size: 1.3125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__dollar-sign {
+        font-size: .9625vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__dollar-sign {
+        font-size: 1.375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__dollar-sign {
+        font-size: 1.125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__dollar-sign {
+        font-size: 1.125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__dollar-sign {
+        font-size: 1.375vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__dollar-sign {
+        line-height: 1.51042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__dollar-sign {
+        line-height: 1.58594vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__dollar-sign {
+        line-height: 1.16302vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__dollar-sign {
+        line-height: 1.66146vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__dollar-sign {
+        line-height: 1.35938vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__dollar-sign {
+        line-height: 1.35938vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__dollar-sign {
+        line-height: 1.66146vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__dollar-sign {
+        width: 1.82292vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__dollar-sign {
+        width: 1.91406vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__dollar-sign {
+        width: 1.40365vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__dollar-sign {
+        width: 2.00521vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__dollar-sign {
+        width: 1.64063vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__dollar-sign {
+        width: 1.64063vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__dollar-sign {
+        width: 2.00521vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__dollar-sign {
+        height: 1.82292vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__dollar-sign {
+        height: 1.91406vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__dollar-sign {
+        height: 1.40365vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__dollar-sign {
+        height: 2.00521vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__dollar-sign {
+        height: 1.64063vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__dollar-sign {
+        height: 1.64063vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__dollar-sign {
+        height: 2.00521vw
+    }
+}
+
+.gas-station__total-value {
+    color: #39d236;
+    font-family: PFDinDisplayProRegular;
+    font-size: 1.66667vw;
+    line-height: 1.97917vw;
+    margin-left: .52083vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__total-value {
+        font-size: 1.66667vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__total-value {
+        font-size: 1.75vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__total-value {
+        font-size: 1.28333vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__total-value {
+        font-size: 1.83333vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__total-value {
+        font-size: 1.5vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__total-value {
+        font-size: 1.5vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__total-value {
+        font-size: 1.83333vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__total-value {
+        line-height: 1.97917vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__total-value {
+        line-height: 2.07813vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__total-value {
+        line-height: 1.52396vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__total-value {
+        line-height: 2.17708vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__total-value {
+        line-height: 1.78125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__total-value {
+        line-height: 1.78125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__total-value {
+        line-height: 2.17708vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__total-value {
+        margin-left: .52083vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__total-value {
+        margin-left: .54688vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__total-value {
+        margin-left: .40104vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__total-value {
+        margin-left: .57292vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__total-value {
+        margin-left: .46875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__total-value {
+        margin-left: .46875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__total-value {
+        margin-left: .57292vw
+    }
+}
+
+.gas-station__cashout-button {
+    align-items: center;
+    background-color: #39d236;
+    border-radius: .26042vw;
+    cursor: pointer;
+    display: inline-flex;
+    height: 2.60417vw;
+    justify-content: center;
+    width: 10.41667vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__cashout-button {
+        width: 10.41667vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__cashout-button {
+        width: 10.9375vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__cashout-button {
+        width: 8.02083vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__cashout-button {
+        width: 11.45833vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__cashout-button {
+        width: 9.375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__cashout-button {
+        width: 9.375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__cashout-button {
+        width: 11.45833vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__cashout-button {
+        height: 2.60417vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__cashout-button {
+        height: 2.73438vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__cashout-button {
+        height: 2.00521vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__cashout-button {
+        height: 2.86458vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__cashout-button {
+        height: 2.34375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__cashout-button {
+        height: 2.34375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__cashout-button {
+        height: 2.86458vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__cashout-button {
+        border-radius: .26042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__cashout-button {
+        border-radius: .27344vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__cashout-button {
+        border-radius: .20052vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__cashout-button {
+        border-radius: .28646vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__cashout-button {
+        border-radius: .23438vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__cashout-button {
+        border-radius: .23438vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__cashout-button {
+        border-radius: .28646vw
+    }
+}
+
+.gas-station__cashout-text {
+    color: #202731;
+    font-family: PFDinDisplayProRegular;
+    font-size: .83333vw;
+    line-height: .98958vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__cashout-text {
+        font-size: .83333vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__cashout-text {
+        font-size: .875vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__cashout-text {
+        font-size: .64167vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__cashout-text {
+        font-size: .91667vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__cashout-text {
+        font-size: .75vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__cashout-text {
+        font-size: .75vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__cashout-text {
+        font-size: .91667vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__cashout-text {
+        line-height: .98958vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__cashout-text {
+        line-height: 1.03906vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__cashout-text {
+        line-height: .76198vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__cashout-text {
+        line-height: 1.08854vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__cashout-text {
+        line-height: .89062vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__cashout-text {
+        line-height: .89062vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__cashout-text {
+        line-height: 1.08854vw
+    }
+}
+
+.gas-station__purchase {
+    margin-top: 5.20833vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__purchase {
+        margin-top: 5.20833vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__purchase {
+        margin-top: 5.46875vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__purchase {
+        margin-top: 4.01042vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__purchase {
+        margin-top: 5.72917vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__purchase {
+        margin-top: 4.6875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__purchase {
+        margin-top: 4.6875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__purchase {
+        margin-top: 5.72917vw
+    }
+}
+
+.gas-station__purchase-caption {
+    color: #fff;
+    font-family: PFDinDisplayProRegular;
+    font-size: 1.25vw;
+    line-height: 1.51042vw;
+    margin-bottom: 1.30208vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__purchase-caption {
+        font-size: 1.25vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__purchase-caption {
+        font-size: 1.3125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__purchase-caption {
+        font-size: .9625vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__purchase-caption {
+        font-size: 1.375vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__purchase-caption {
+        font-size: 1.125vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__purchase-caption {
+        font-size: 1.125vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__purchase-caption {
+        font-size: 1.375vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__purchase-caption {
+        line-height: 1.51042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__purchase-caption {
+        line-height: 1.58594vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__purchase-caption {
+        line-height: 1.16302vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__purchase-caption {
+        line-height: 1.66146vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__purchase-caption {
+        line-height: 1.35938vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__purchase-caption {
+        line-height: 1.35938vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__purchase-caption {
+        line-height: 1.66146vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__purchase-caption {
+        margin-bottom: 1.30208vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__purchase-caption {
+        margin-bottom: 1.36719vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__purchase-caption {
+        margin-bottom: 1.0026vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__purchase-caption {
+        margin-bottom: 1.43229vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__purchase-caption {
+        margin-bottom: 1.17188vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__purchase-caption {
+        margin-bottom: 1.17188vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__purchase-caption {
+        margin-bottom: 1.43229vw
+    }
+}
+
+.gas-station__products {
+    display: flex;
+    justify-content: space-between;
+    max-width: 30.20833vw;
+    overflow: auto;
+    padding-bottom: .52083vw;
+    width: 100%
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__products {
+        max-width: 30.20833vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__products {
+        max-width: 31.71875vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__products {
+        max-width: 23.26042vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__products {
+        max-width: 33.22917vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__products {
+        max-width: 27.1875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__products {
+        max-width: 27.1875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__products {
+        max-width: 33.22917vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__products {
+        padding-bottom: .52083vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__products {
+        padding-bottom: .54688vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__products {
+        padding-bottom: .40104vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__products {
+        padding-bottom: .57292vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__products {
+        padding-bottom: .46875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__products {
+        padding-bottom: .46875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__products {
+        padding-bottom: .57292vw
+    }
+}
+
+.gas-station__products::-webkit-scrollbar {
+    height: .41667vw;
+    width: 0
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__products::-webkit-scrollbar {
+        height: .41667vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__products::-webkit-scrollbar {
+        height: .4375vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__products::-webkit-scrollbar {
+        height: .32083vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__products::-webkit-scrollbar {
+        height: .45833vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__products::-webkit-scrollbar {
+        height: .375vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__products::-webkit-scrollbar {
+        height: .375vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__products::-webkit-scrollbar {
+        height: .45833vw
+    }
+}
+
+.gas-station__products::-webkit-scrollbar-button {
+    display: none
+}
+
+.gas-station__products::-webkit-scrollbar-track {
+    background-color: hsla(0, 0%, 100%, .45)
+}
+
+.gas-station__products::-webkit-scrollbar-track-piece {
+    background: hsla(0, 0%, 100%, .45);
+    border-radius: .26042vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__products::-webkit-scrollbar-track-piece {
+        border-radius: .26042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__products::-webkit-scrollbar-track-piece {
+        border-radius: .27344vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__products::-webkit-scrollbar-track-piece {
+        border-radius: .20052vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__products::-webkit-scrollbar-track-piece {
+        border-radius: .28646vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__products::-webkit-scrollbar-track-piece {
+        border-radius: .23438vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__products::-webkit-scrollbar-track-piece {
+        border-radius: .23438vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__products::-webkit-scrollbar-track-piece {
+        border-radius: .28646vw
+    }
+}
+
+.gas-station__products::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: .26042vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__products::-webkit-scrollbar-thumb {
+        border-radius: .26042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__products::-webkit-scrollbar-thumb {
+        border-radius: .27344vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__products::-webkit-scrollbar-thumb {
+        border-radius: .20052vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__products::-webkit-scrollbar-thumb {
+        border-radius: .28646vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__products::-webkit-scrollbar-thumb {
+        border-radius: .23438vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__products::-webkit-scrollbar-thumb {
+        border-radius: .23438vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__products::-webkit-scrollbar-thumb {
+        border-radius: .28646vw
+    }
+}
+
+.gas-station__products::-webkit-resizer,
+.gas-station__products::-webkit-scrollbar-corner {
+    background-color: hsla(0, 0%, 100%, .45)
+}
+
+.gas-station__product {
+    align-items: start;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: .78125vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__product {
+        margin-right: .78125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__product {
+        margin-right: .82031vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__product {
+        margin-right: .60156vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__product {
+        margin-right: .85938vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__product {
+        margin-right: .70313vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__product {
+        margin-right: .70313vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__product {
+        margin-right: .85938vw
+    }
+}
+
+.gas-station__product-image-wrapper {
+    border: .05208vw solid hsla(0, 0%, 100%, .1);
+    border-radius: .26042vw;
+    height: 6.51042vw;
+    margin-bottom: .625vw;
+    padding: .78125vw;
+    position: relative;
+    width: 6.51042vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__product-image-wrapper {
+        width: 6.51042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__product-image-wrapper {
+        width: 6.83594vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__product-image-wrapper {
+        width: 5.01302vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__product-image-wrapper {
+        width: 7.16146vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__product-image-wrapper {
+        width: 5.85938vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__product-image-wrapper {
+        width: 5.85938vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__product-image-wrapper {
+        width: 7.16146vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__product-image-wrapper {
+        height: 6.51042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__product-image-wrapper {
+        height: 6.83594vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__product-image-wrapper {
+        height: 5.01302vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__product-image-wrapper {
+        height: 7.16146vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__product-image-wrapper {
+        height: 5.85938vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__product-image-wrapper {
+        height: 5.85938vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__product-image-wrapper {
+        height: 7.16146vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__product-image-wrapper {
+        padding: .78125vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__product-image-wrapper {
+        padding: .82031vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__product-image-wrapper {
+        padding: .60156vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__product-image-wrapper {
+        padding: .85938vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__product-image-wrapper {
+        padding: .70313vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__product-image-wrapper {
+        padding: .70313vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__product-image-wrapper {
+        padding: .85938vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__product-image-wrapper {
+        border-radius: .26042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__product-image-wrapper {
+        border-radius: .27344vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__product-image-wrapper {
+        border-radius: .20052vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__product-image-wrapper {
+        border-radius: .28646vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__product-image-wrapper {
+        border-radius: .23438vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__product-image-wrapper {
+        border-radius: .23438vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__product-image-wrapper {
+        border-radius: .28646vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__product-image-wrapper {
+        border-width: .05208vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__product-image-wrapper {
+        border-width: .05469vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__product-image-wrapper {
+        border-width: .0401vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__product-image-wrapper {
+        border-width: .05729vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__product-image-wrapper {
+        border-width: .04688vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__product-image-wrapper {
+        border-width: .04688vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__product-image-wrapper {
+        border-width: .05729vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__product-image-wrapper {
+        margin-bottom: .625vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__product-image-wrapper {
+        margin-bottom: .65625vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__product-image-wrapper {
+        margin-bottom: .48125vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__product-image-wrapper {
+        margin-bottom: .6875vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__product-image-wrapper {
+        margin-bottom: .5625vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__product-image-wrapper {
+        margin-bottom: .5625vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__product-image-wrapper {
+        margin-bottom: .6875vw
+    }
+}
+
+.gas-station__product-image-wrapper:hover .gas-station__product-overlay {
+    display: flex
+}
+
+.gas-station__product-image {
+    width: 100%
+}
+
+.gas-station__product-name {
+    color: #fff;
+    font-family: PFDinDisplayProRegular;
+    font-size: .72917vw;
+    line-height: .88542vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__product-name {
+        font-size: .72917vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__product-name {
+        font-size: .76563vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__product-name {
+        font-size: .56146vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__product-name {
+        font-size: .80208vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__product-name {
+        font-size: .65625vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__product-name {
+        font-size: .65625vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__product-name {
+        font-size: .80208vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__product-name {
+        line-height: .88542vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__product-name {
+        line-height: .92969vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__product-name {
+        line-height: .68177vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__product-name {
+        line-height: .97396vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__product-name {
+        line-height: .79688vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__product-name {
+        line-height: .79688vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__product-name {
+        line-height: .97396vw
+    }
+}
+
+.gas-station__product-price {
+    align-items: start;
+    display: flex;
+    margin-top: .26042vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__product-price {
+        margin-top: .26042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__product-price {
+        margin-top: .27344vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__product-price {
+        margin-top: .20052vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__product-price {
+        margin-top: .28646vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__product-price {
+        margin-top: .23438vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__product-price {
+        margin-top: .23438vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__product-price {
+        margin-top: .28646vw
+    }
+}
+
+.gas-station__product-price-value {
+    color: #39d236;
+    font-family: PFDinDisplayProRegular;
+    font-size: .72917vw;
+    line-height: .88542vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__product-price-value {
+        font-size: .72917vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__product-price-value {
+        font-size: .76563vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__product-price-value {
+        font-size: .56146vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__product-price-value {
+        font-size: .80208vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__product-price-value {
+        font-size: .65625vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__product-price-value {
+        font-size: .65625vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__product-price-value {
+        font-size: .80208vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__product-price-value {
+        line-height: .88542vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__product-price-value {
+        line-height: .92969vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__product-price-value {
+        line-height: .68177vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__product-price-value {
+        line-height: .97396vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__product-price-value {
+        line-height: .79688vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__product-price-value {
+        line-height: .79688vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__product-price-value {
+        line-height: .97396vw
+    }
+}
+
+.gas-station__per-item {
+    color: #fff;
+    font-family: PFDinDisplayProRegular;
+    font-size: .52083vw;
+    line-height: .67708vw;
+    margin-left: .15625vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__per-item {
+        font-size: .52083vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__per-item {
+        font-size: .54688vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__per-item {
+        font-size: .40104vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__per-item {
+        font-size: .57292vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__per-item {
+        font-size: .46875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__per-item {
+        font-size: .46875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__per-item {
+        font-size: .57292vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__per-item {
+        line-height: .67708vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__per-item {
+        line-height: .71094vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__per-item {
+        line-height: .52135vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__per-item {
+        line-height: .74479vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__per-item {
+        line-height: .60938vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__per-item {
+        line-height: .60938vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__per-item {
+        line-height: .74479vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__per-item {
+        margin-left: .15625vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__per-item {
+        margin-left: .16406vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__per-item {
+        margin-left: .12031vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__per-item {
+        margin-left: .17188vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__per-item {
+        margin-left: .14063vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__per-item {
+        margin-left: .14063vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__per-item {
+        margin-left: .17188vw
+    }
+}
+
+.gas-station__product-overlay {
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: .26042vw;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__product-overlay {
+        border-radius: .26042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__product-overlay {
+        border-radius: .27344vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__product-overlay {
+        border-radius: .20052vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__product-overlay {
+        border-radius: .28646vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__product-overlay {
+        border-radius: .23438vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__product-overlay {
+        border-radius: .23438vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__product-overlay {
+        border-radius: .28646vw
+    }
+}
+
+.gas-station__product-button {
+    align-items: center;
+    background-color: #39d236;
+    border-radius: .26042vw;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-family: PFDinDisplayProRegular;
+    font-size: .72917vw;
+    height: 1.5625vw;
+    justify-content: center;
+    line-height: .83333vw;
+    width: 5.20833vw
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__product-button {
+        width: 5.20833vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__product-button {
+        width: 5.46875vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__product-button {
+        width: 4.01042vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__product-button {
+        width: 5.72917vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__product-button {
+        width: 4.6875vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__product-button {
+        width: 4.6875vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__product-button {
+        width: 5.72917vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__product-button {
+        height: 1.5625vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__product-button {
+        height: 1.64063vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__product-button {
+        height: 1.20313vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__product-button {
+        height: 1.71875vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__product-button {
+        height: 1.40625vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__product-button {
+        height: 1.40625vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__product-button {
+        height: 1.71875vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__product-button {
+        font-size: .72917vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__product-button {
+        font-size: .76563vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__product-button {
+        font-size: .56146vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__product-button {
+        font-size: .80208vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__product-button {
+        font-size: .65625vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__product-button {
+        font-size: .65625vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__product-button {
+        font-size: .80208vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__product-button {
+        line-height: .83333vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__product-button {
+        line-height: .875vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__product-button {
+        line-height: .64167vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__product-button {
+        line-height: .91667vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__product-button {
+        line-height: .75vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__product-button {
+        line-height: .75vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__product-button {
+        line-height: .91667vw
+    }
+}
+
+@media(max-width:1920px)and (max-height:768px) {
+    .gas-station__product-button {
+        border-radius: .26042vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1440px) {
+    .gas-station__product-button {
+        border-radius: .27344vw
+    }
+}
+
+@media(min-width:2560px)and (max-height:1080px) {
+    .gas-station__product-button {
+        border-radius: .20052vw
+    }
+}
+
+@media(min-width:3440px) {
+    .gas-station__product-button {
+        border-radius: .28646vw
+    }
+}
+
+@media(min-width:3440px)and (max-height:1440px) {
+    .gas-station__product-button {
+        border-radius: .23438vw
+    }
+}
+
+@media(min-width:3840px)and (max-height:2160px) {
+    .gas-station__product-button {
+        border-radius: .23438vw
+    }
+}
+
+@media(min-width:4096px) {
+    .gas-station__product-button {
+        border-radius: .28646vw
+    }
+}
